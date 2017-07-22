@@ -32,7 +32,7 @@
         <!--검색-->
         <scene sceneID="KzP-Lc-jYT">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PcI-uF-SOP" customClass="ViewController" customModule="mp3cube" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PcI-uF-SOP" customClass="SearchViewController" customModule="mp3cube" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eHV-mi-iy3"/>
                         <viewControllerLayoutGuide type="bottom" id="Vz9-bU-9H1"/>

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SearchViewController.swift
 //  mp3cube
 //
 //  Created by INSU BYEON on 2017. 7. 6..
@@ -21,7 +21,7 @@ extension UIViewController {
     }
 }
 
-extension ViewController {
+extension SearchViewController {
     var isConnected :Bool {
         return NetworkReachabilityManager()!.isReachable
     }
@@ -50,7 +50,7 @@ extension String {
     }
 }
 
-class ViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource {
+class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource {
     
     var tblData: [String] = []
     var tblDataArtist: [String] = []
