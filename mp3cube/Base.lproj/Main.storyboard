@@ -32,7 +32,7 @@
         <!--검색-->
         <scene sceneID="KzP-Lc-jYT">
             <objects>
-                <viewController id="PcI-uF-SOP" customClass="ViewController" customModule="mp3cube" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PcI-uF-SOP" customClass="ViewController" customModule="mp3cube" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eHV-mi-iy3"/>
                         <viewControllerLayoutGuide type="bottom" id="Vz9-bU-9H1"/>
@@ -41,16 +41,17 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" placeholder="검색할 음악을 입력해주세요." translatesAutoresizingMaskIntoConstraints="NO" id="jH5-wc-vMP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fuY-6Y-DpR">
-                                <rect key="frame" x="0.0" y="44" width="320" height="411"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" placeholder="검색할 음악을 입력해주세요." id="jH5-wc-vMP">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="57" id="0qG-qr-HzJ" customClass="SearchTableView" customModule="mp3cube" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="57"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="57"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0qG-qr-HzJ" id="mvA-MK-5kX">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
@@ -91,12 +92,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="fuY-6Y-DpR" secondAttribute="trailing" id="2Es-QC-Hdc"/>
-                            <constraint firstItem="jH5-wc-vMP" firstAttribute="top" secondItem="eHV-mi-iy3" secondAttribute="bottom" id="FhW-d0-fQe"/>
-                            <constraint firstAttribute="trailing" secondItem="jH5-wc-vMP" secondAttribute="trailing" id="SLo-53-bjD"/>
-                            <constraint firstItem="jH5-wc-vMP" firstAttribute="centerX" secondItem="Xvg-eu-6RI" secondAttribute="centerX" id="TIK-iS-tDW"/>
-                            <constraint firstItem="jH5-wc-vMP" firstAttribute="leading" secondItem="Xvg-eu-6RI" secondAttribute="leading" id="UGL-sm-ZKN"/>
                             <constraint firstItem="Vz9-bU-9H1" firstAttribute="top" secondItem="fuY-6Y-DpR" secondAttribute="bottom" id="VNV-B5-xd3"/>
-                            <constraint firstItem="fuY-6Y-DpR" firstAttribute="top" secondItem="jH5-wc-vMP" secondAttribute="bottom" id="g75-s5-0FI"/>
+                            <constraint firstItem="fuY-6Y-DpR" firstAttribute="top" secondItem="eHV-mi-iy3" secondAttribute="bottom" id="fe4-gJ-FQq"/>
                             <constraint firstItem="fuY-6Y-DpR" firstAttribute="leading" secondItem="Xvg-eu-6RI" secondAttribute="leading" id="y3r-Um-ajp"/>
                         </constraints>
                     </view>
