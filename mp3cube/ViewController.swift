@@ -132,7 +132,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: SearchTableView = self.tblSearchBar.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! SearchTableView
+        let cell: SearchTableViewCell = self.tblSearchBar.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! SearchTableViewCell
 
         cell.myTitle?.text = self.tblData[indexPath.row]
         cell.myArtist?.text = self.tblDataArtist[indexPath.row]

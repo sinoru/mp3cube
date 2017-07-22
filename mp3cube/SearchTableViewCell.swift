@@ -1,5 +1,5 @@
 //
-//  SearchTableView.swift
+//  SearchTableViewCell.swift
 //  mp3cube
 //
 //  Created by INSU BYEON on 21/07/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchTableView: UITableViewCell {
+class SearchTableViewCell: UITableViewCell {
 
     @IBOutlet weak var myTitle: UILabel!
 
