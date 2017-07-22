@@ -7,17 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0133B7D01F20C10C005BCE68 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0133B7BF1F20AD43005BCE68 /* Alamofire.framework */; };
+		0133B7D31F20C154005BCE68 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0133B7BF1F20AD43005BCE68 /* Alamofire.framework */; };
+		0133B7D41F20C154005BCE68 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0133B7BF1F20AD43005BCE68 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		01695C701F0E843D00CB0950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01695C6F1F0E843D00CB0950 /* AppDelegate.swift */; };
 		01695C721F0E843D00CB0950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01695C711F0E843D00CB0950 /* ViewController.swift */; };
 		01695C751F0E843D00CB0950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01695C731F0E843D00CB0950 /* Main.storyboard */; };
 		01695C781F0E843D00CB0950 /* mp3cube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01695C761F0E843D00CB0950 /* mp3cube.xcdatamodeld */; };
-		01695C7A1F0E843D00CB0950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01695C791F0E843D00CB0950 /* Assets.xcassets */; };
 		01695C7D1F0E843D00CB0950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01695C7B1F0E843D00CB0950 /* LaunchScreen.storyboard */; };
 		01695C881F0E843D00CB0950 /* mp3cubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01695C871F0E843D00CB0950 /* mp3cubeTests.swift */; };
 		01695C931F0E843D00CB0950 /* mp3cubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01695C921F0E843D00CB0950 /* mp3cubeUITests.swift */; };
+		016CE9F51F22CCAB00B7170D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016CE9F41F22CCAB00B7170D /* SettingViewController.swift */; };
+		016CEA011F22D36100B7170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016CEA001F22D36100B7170D /* Assets.xcassets */; };
+		019AD26D1F21D9C400DDB07C /* SearchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AD26C1F21D9C400DDB07C /* SearchTableView.swift */; };
+		01EACA3B1F12BECB001F5150 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EACA3A1F12BECB001F5150 /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0133B7BE1F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		0133B7C01F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		0133B7C21F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		0133B7C41F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		0133B7C61F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		0133B7C81F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		0133B7CA1F20AD43005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		0133B7CC1F20AD48005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		0133B7D51F20C154005BCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		01695C841F0E843D00CB0950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01695C641F0E843C00CB0950 /* Project object */;
@@ -34,13 +103,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0133B7D71F20C154005BCE68 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0133B7D41F20C154005BCE68 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		01695C6C1F0E843D00CB0950 /* mp3cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mp3cube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01695C6F1F0E843D00CB0950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01695C711F0E843D00CB0950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01695C741F0E843D00CB0950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01695C771F0E843D00CB0950 /* mp3cube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mp3cube.xcdatamodel; sourceTree = "<group>"; };
-		01695C791F0E843D00CB0950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01695C7C1F0E843D00CB0950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01695C7E1F0E843D00CB0950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01695C831F0E843D00CB0950 /* mp3cubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mp3cubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +132,10 @@
 		01695C8E1F0E843D00CB0950 /* mp3cubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mp3cubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01695C921F0E843D00CB0950 /* mp3cubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mp3cubeUITests.swift; sourceTree = "<group>"; };
 		01695C941F0E843D00CB0950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016CE9F41F22CCAB00B7170D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		016CEA001F22D36100B7170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		019AD26C1F21D9C400DDB07C /* SearchTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableView.swift; sourceTree = "<group>"; };
+		01EACA3A1F12BECB001F5150 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +143,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0133B7D01F20C10C005BCE68 /* Alamofire.framework in Frameworks */,
+				0133B7D31F20C154005BCE68 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +165,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0133B7B41F20AD43005BCE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0133B7BF1F20AD43005BCE68 /* Alamofire.framework */,
+				0133B7C11F20AD43005BCE68 /* Alamofire iOS Tests.xctest */,
+				0133B7C31F20AD43005BCE68 /* Alamofire.framework */,
+				0133B7C51F20AD43005BCE68 /* Alamofire macOS Tests.xctest */,
+				0133B7C71F20AD43005BCE68 /* Alamofire.framework */,
+				0133B7C91F20AD43005BCE68 /* Alamofire tvOS Tests.xctest */,
+				0133B7CB1F20AD43005BCE68 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		01695C631F0E843C00CB0950 = {
 			isa = PBXGroup;
 			children = (
+				0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */,
 				01695C6E1F0E843D00CB0950 /* mp3cube */,
 				01695C861F0E843D00CB0950 /* mp3cubeTests */,
 				01695C911F0E843D00CB0950 /* mp3cubeUITests */,
@@ -99,13 +203,15 @@
 		01695C6E1F0E843D00CB0950 /* mp3cube */ = {
 			isa = PBXGroup;
 			children = (
+				016CEA001F22D36100B7170D /* Assets.xcassets */,
+				016CE9FF1F22CD9F00B7170D /* Models */,
+				016CE9FE1F22CD9200B7170D /* Views */,
+				016CE9FD1F22CD7E00B7170D /* Controllers */,
 				01695C6F1F0E843D00CB0950 /* AppDelegate.swift */,
-				01695C711F0E843D00CB0950 /* ViewController.swift */,
-				01695C731F0E843D00CB0950 /* Main.storyboard */,
-				01695C791F0E843D00CB0950 /* Assets.xcassets */,
 				01695C7B1F0E843D00CB0950 /* LaunchScreen.storyboard */,
 				01695C7E1F0E843D00CB0950 /* Info.plist */,
 				01695C761F0E843D00CB0950 /* mp3cube.xcdatamodeld */,
+				01EACA3A1F12BECB001F5150 /* Icons.xcassets */,
 			);
 			path = mp3cube;
 			sourceTree = "<group>";
@@ -128,6 +234,31 @@
 			path = mp3cubeUITests;
 			sourceTree = "<group>";
 		};
+		016CE9FD1F22CD7E00B7170D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				016CE9F41F22CCAB00B7170D /* SettingViewController.swift */,
+				01695C711F0E843D00CB0950 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		016CE9FE1F22CD9200B7170D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01695C731F0E843D00CB0950 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		016CE9FF1F22CD9F00B7170D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				019AD26C1F21D9C400DDB07C /* SearchTableView.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +269,13 @@
 				01695C681F0E843D00CB0950 /* Sources */,
 				01695C691F0E843D00CB0950 /* Frameworks */,
 				01695C6A1F0E843D00CB0950 /* Resources */,
+				0133B7D71F20C154005BCE68 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0133B7CD1F20AD48005BCE68 /* PBXTargetDependency */,
+				0133B7D61F20C154005BCE68 /* PBXTargetDependency */,
 			);
 			name = mp3cube;
 			productName = mp3cube;
@@ -224,6 +358,12 @@
 			mainGroup = 01695C631F0E843C00CB0950;
 			productRefGroup = 01695C6D1F0E843D00CB0950 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0133B7B41F20AD43005BCE68 /* Products */;
+					ProjectRef = 0133B7B31F20AD43005BCE68 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				01695C6B1F0E843D00CB0950 /* mp3cube */,
@@ -233,13 +373,66 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0133B7BF1F20AD43005BCE68 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0133B7BE1F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7C11F20AD43005BCE68 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 0133B7C01F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7C31F20AD43005BCE68 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0133B7C21F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7C51F20AD43005BCE68 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 0133B7C41F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7C71F20AD43005BCE68 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0133B7C61F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7C91F20AD43005BCE68 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 0133B7C81F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0133B7CB1F20AD43005BCE68 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0133B7CA1F20AD43005BCE68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		01695C6A1F0E843D00CB0950 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016CEA011F22D36100B7170D /* Assets.xcassets in Resources */,
 				01695C7D1F0E843D00CB0950 /* LaunchScreen.storyboard in Resources */,
-				01695C7A1F0E843D00CB0950 /* Assets.xcassets in Resources */,
+				01EACA3B1F12BECB001F5150 /* Icons.xcassets in Resources */,
 				01695C751F0E843D00CB0950 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +458,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016CE9F51F22CCAB00B7170D /* SettingViewController.swift in Sources */,
 				01695C721F0E843D00CB0950 /* ViewController.swift in Sources */,
+				019AD26D1F21D9C400DDB07C /* SearchTableView.swift in Sources */,
 				01695C701F0E843D00CB0950 /* AppDelegate.swift in Sources */,
 				01695C781F0E843D00CB0950 /* mp3cube.xcdatamodeld in Sources */,
 			);
@@ -290,6 +485,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0133B7CD1F20AD48005BCE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 0133B7CC1F20AD48005BCE68 /* PBXContainerItemProxy */;
+		};
+		0133B7D61F20C154005BCE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 0133B7D51F20C154005BCE68 /* PBXContainerItemProxy */;
+		};
 		01695C851F0E843D00CB0950 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01695C6B1F0E843D00CB0950 /* mp3cube */;
@@ -418,12 +623,17 @@
 		01695C981F0E843D00CB0950 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3G4595GUAV;
 				INFOPLIST_FILE = mp3cube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.mp3cube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,12 +641,17 @@
 		01695C991F0E843D00CB0950 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3G4595GUAV;
 				INFOPLIST_FILE = mp3cube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.mp3cube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +733,7 @@
 				01695C991F0E843D00CB0950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01695C9A1F0E843D00CB0950 /* Build configuration list for PBXNativeTarget "mp3cubeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +742,7 @@
 				01695C9C1F0E843D00CB0950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01695C9D1F0E843D00CB0950 /* Build configuration list for PBXNativeTarget "mp3cubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +751,7 @@
 				01695C9F1F0E843D00CB0950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
